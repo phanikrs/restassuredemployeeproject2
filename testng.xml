@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="EmployeeRestAPIsuite">
+
+
+<test thread-count="5" name="restassuredtests">
+
+<classes>
+
+     <class name="com.employee.testcases.Tc001_GET_All_Employees"/>
+      <class name="com.employee.testcases.Tc002_GET_single_Employee"/>
+       <class name="com.employee.testcases.Tc003_POST_New_Record_RestUtils"/>
+        <class name="com.employee.testcases.Tc004_POST_New_Record"/>
+         <class name="com.employee.testcases.Tc005_Update_Employee"/>
+          <class name="com.employee.testcases.Tc006_Delete_Employee"/>
+
+</classes>
+
+</test> <!-- Test -->
+
+
+</suite> <!--  Suite -->
